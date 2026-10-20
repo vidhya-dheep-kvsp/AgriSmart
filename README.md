@@ -4,7 +4,7 @@
 
 **AgriSmart (KrishiMitra)** is a full-stack agricultural decision-support prototype engineered for smallholder farmers to address three critical seasonal bottlenecks: **scientific crop selection**, **early plant pathology triage**, and **regional APMC mandi price discovery**. Rather than relying on unconstrained generative text or brittle synchronous calls to high-latency agricultural portals, AgriSmart combines a **Scikit-Learn Random Forest Classifier** (trained on 7 edaphic and climatic parameters) with a **deterministic ICAR/KVK plant pathology lookup engine** and a **pre-warmed local data cache**. The platform guarantees sub-second response times, zero chemical dosage hallucinations, and full accessibility across grammatical variations in farmer queries.
 
-[assets/architecture.png]
+![AgriSmart Architecture Diagram](assets/architecture.png)
 
 ## Technical Trade-offs & Architectural Decisions
 
