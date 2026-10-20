@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+*.env
+backend/.env
+frontend/.env
+frontend/.env.local
+!.env.example
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# Local Databases & Pre-Warmed Cache Dumps
+*.db
+*.sqlite3
+backend/cache_dumps/
+data_utilities/output/*.json
+data_utilities/raw_logs/*.csv
+
+# Uploaded Symptom Test Images & Application Logs
+uploads/
+test_symptom_images/
+*.log
+logs/
+*.jpg
+*.jpeg
+*.png
+!assets/*.png
+
+# Frontend Dependencies & Local Builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+Thumbs.db
